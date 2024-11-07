@@ -9,7 +9,7 @@ if(isset($_SESSION['UserLogin'])){
     echo "<div class='message info'> Welcome Bisita</div";
 }
 
-include_once("connections/connection.php");
+include_once("connection.php");
 
 $con = connection();
 
