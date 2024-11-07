@@ -1,7 +1,7 @@
 <?php
 
 
-include_once("connections/connection.php");
+include_once("connection.php");
 $con = connection();
 
 // echo $_POST['TID'];
