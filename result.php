@@ -11,7 +11,7 @@ if(isset($_SESSION['Userlogin'])){
     echo "Welcome Halata";
 }
 
-include_once("connections/connections.php");
+include_once("connections.php");
 
 $con = connection();
 $search = $_GET['search'];
@@ -28,7 +28,7 @@ $row = $mgaBaliw->fetch_assoc();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-cpmpatible"content="ie=edge">
     <title>Student Management System</title>
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 <thead>
