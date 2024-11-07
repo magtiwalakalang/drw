@@ -9,7 +9,7 @@ if(isset($_SESSION['UserLogin'])){
     echo "Welcome Bisita";
 }
 
-include_once("connections/connection.php");
+include_once("connection.php");
 
 $con = connection();
 $search = $_GET['search'];
@@ -26,7 +26,7 @@ $search = $_GET['search'];
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-cpmpatible"content="ie=edge">
     <title>DRWSA Management System</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
