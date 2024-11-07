@@ -10,7 +10,7 @@ if(isset($_SESSION['Access'])&& $_SESSION['Access'] == "admin"){
     echo header("Location: index.php");
 }
 
-include_once("connections/connection.php");
+include_once("connection.php");
 
 $con = connection();
 
