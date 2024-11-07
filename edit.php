@@ -1,6 +1,6 @@
 <?php
 
-include_once("connections/connection.php");
+include_once("connection.php");
 
 $con = connection();
 $id = $_GET['ID'];
@@ -31,7 +31,7 @@ if(isset($_POST['submit'])){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-cpmpatible"content="ie=edge">
     <title>DRWSA Management System</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
        <form action="" method="post">
