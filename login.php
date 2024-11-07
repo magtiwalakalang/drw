@@ -3,7 +3,7 @@ if(!isset($_SESSION)){
     session_start();
 } 
 
-include_once("connections/connection.php");
+include_once("connection.php");
 $con = connection();
 
 if(isset($_POST['login'])){
@@ -39,7 +39,7 @@ if(isset($_POST['login'])){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-cpmpatible"content="ie=edge">
     <title>DRWSA Management System</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 <body id="formlogin">
